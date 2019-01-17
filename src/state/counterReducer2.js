@@ -1,5 +1,4 @@
 import { createReducer, createAction } from 'redux-act'
-// import store from '../store'
 
 export const actions = {
   add: createAction(),
@@ -15,20 +14,3 @@ export default createReducer({
   [actions.subtract]: (state) => Object.assign({}, state, { count: state.count - 1 }),
 }, initialState)
 
-/**
- * Setters
- */
-
-// export const counterAdd = () => {
-//   store.dispatch(actions.add())
-// }
-
-// export const counterSubtract = () => {
-//   store.dispatch(actions.subtract())
-// }
-
-/**
- * Getters
- */
-
-// None yet...
