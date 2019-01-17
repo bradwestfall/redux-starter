@@ -7,10 +7,6 @@
     "react"
   ],
   "plugins": [
-    "transform-object-assign",
-    // Allows us to use ESModule includes from src instead of using relative paths everywhere
-    ["module-resolver", {
-      "root": ["./src"]
-    }]
+    "transform-object-assign"
   ]
 }
