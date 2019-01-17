@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react'
 import { connect } from 'react-redux'
 import store from '../store'
+// import { actions } from '../state/counterReducer2'
 
 const HomePage = ({ count }) => {
   return (
