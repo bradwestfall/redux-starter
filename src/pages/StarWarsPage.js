@@ -14,7 +14,7 @@ class StarWarsPage extends React.Component {
 
   render() {
     const { people } = this.state
-    
+
     return (
       <div>
         {Array.isArray(people) && people.map(p => (
