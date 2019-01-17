@@ -28,5 +28,4 @@ console.log('Initial State', store.getState())
 
 store.dispatch({ type: 'ADD', value: 1 })
 
-
 console.log('End State', store.getState())

@@ -1,7 +1,8 @@
-const counterReducer = (state = { count: 0 }, action) => {
+const initialState = { count: 0 }
+
+const counterReducer = (state = initialState, action) => {
   if (action.type === 'ADD') {
     const newState = Object.assign({}, state, { count: state.count + 1 })
-    console.log(newState)
     return newState
   }
 
