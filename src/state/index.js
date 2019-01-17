@@ -1,11 +1,13 @@
 import { combineReducers } from 'redux'
 
 // Custom Reducers
-import counterState from './counterReducer'
+import counterReducer from './counterReducer'
+import userReducer from './userReducer'
 
 // Combine Reducers
 const reducers = combineReducers({
-  counterState,
+  counterState: counterReducer,
+  userState: userReducer
 })
 
 export default reducers

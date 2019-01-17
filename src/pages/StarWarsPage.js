@@ -1,8 +1,5 @@
 import React from 'react'
 import axios from 'axios'
-// import { connect } from 'react-redux'
-// import store from '../store'
-// // import { actions } from '../state/counterReducer2'
 
 class StarWarsPage extends React.Component {
   state = { people: null }
@@ -24,9 +21,5 @@ class StarWarsPage extends React.Component {
     )
   }
 }
-
-// const stateToProps = ({ counterState }) => ({
-//   count: counterState.count
-// })
 
 export default StarWarsPage
